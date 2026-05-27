@@ -12,7 +12,6 @@ A modern and responsive frontend recreation of the Vivo official website. This p
 
 * ⚠️ Best viewed on Desktop / Laptop for better experience.
 * 📱 Responsive design works on Mobile, Tablet, and Desktop.
-* 🛒 Includes Add to Cart popup functionality.
 * 🔗 Social media buttons open Vivo official pages.
 
 ---
