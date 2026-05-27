@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>vivo Clone</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav id="navbar">
+
+    <a href="#" class="nav-logo">
+      vi<span>v</span>o
+    </a>
+
+    <ul class="nav-links">
+
+      <li><a href="#products">Phones</a></li>
+      <li><a href="#camera">Camera</a></li>
+      <li><a href="#technology">Technology</a></li>
+      <li><a href="#accessories">Accessories</a></li>
+
+    </ul>
+
+    <div class="nav-actions">
+
+      <button class="btn-nav">
+        Buy Now
+      </button>
+
+      <button class="hamburger" onclick="toggleMenu()">
+        ☰
+      </button>
+
+    </div>
+
+  </nav>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <div class="hero-badge">
+        New Arrival 2025
+      </div>
+
+      <h1>
+        Capture Life's
+        <span class="highlight">
+          Finest Moments
+        </span>
+      </h1>
+
+      <p>
+        Experience photography reimagined with vivo AI-powered camera technology.
+      </p>
+
+      <div class="hero-btns">
+
+        <a href="#products" class="btn-primary">
+          Explore Phones
+        </a>
+
+        <a href="#camera" class="btn-outline">
+          Camera Features
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- STATS -->
+
+  <section class="stats-section">
+
+    <div class="stat-box">
+      <h2>500M+</h2>
+      <p>Global Users</p>
+    </div>
+
+    <div class="stat-box">
+      <h2>50+</h2>
+      <p>Countries</p>
+    </div>
+
+    <div class="stat-box">
+      <h2>3200+</h2>
+      <p>Camera Patents</p>
+    </div>
+
+    <div class="stat-box">
+      <h2>14+</h2>
+      <p>Years Innovation</p>
+    </div>
+
+  </section>
+
+  <!-- PRODUCTS -->
+
+  <section class="products" id="products">
+
+    <div class="section-heading">
+
+      <h2>
+        Find Your Perfect Phone
+      </h2>
+
+      <p>
+        Premium smartphones crafted for innovation.
+      </p>
+
+    </div>
+
+    <div class="products-grid">
+
+      <!-- CARD 1 -->
+
+      <div class="product-card">
+
+        <div class="product-img blue-bg">
+          <img src="assets/x200-pro.jpeg" class="phone-image">
+        </div>
+
+        <div class="product-body">
+
+          <h3>vivo X200 Pro</h3>
+
+          <p>200MP Zeiss Camera</p>
+
+          <div class="product-price">
+            ₹89,999
+          </div>
+
+          <a href="product.html?phone=x200" class="btn-card">
+            Buy Now
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 2 -->
+
+      <div class="product-card">
+
+        <div class="product-img purple-bg">
+          <img src="assets/v40.jpeg" class="phone-image">
+        </div>
+
+        <div class="product-body">
+
+          <h3>vivo V40 Pro</h3>
+
+          <p>50MP Portrait Camera</p>
+
+          <div class="product-price">
+            ₹49,999
+          </div>
+          <a href="product.html?phone=v40" class="btn-card">
+            Buy Now
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 3 -->
+
+      <div class="product-card">
+
+        <div class="product-img green-bg">
+          <img src="assets/y300.jpeg" class="phone-image">
+        </div>
+
+        <div class="product-body">
+
+          <h3>vivo Y300 Pro</h3>
+
+          <p>6000mAh Battery</p>
+
+          <div class="product-price">
+            ₹29,999
+          </div>
+
+          <a href="product.html?phone=y300" class="btn-card">
+            Buy Now
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 4 -->
+
+      <div class="product-card">
+
+        <div class="product-img blue-bg">
+          <img src="assets/x100.jpg" class="phone-image">
+        </div>
+
+        <div class="product-body">
+
+          <h3>vivo X100 Ultra</h3>
+
+          <p>100X Periscope Zoom</p>
+
+          <div class="product-price">
+            ₹79,999
+          </div>
+          <a href="product.html?phone=x100" class="btn-card">
+            Buy Now
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 5 -->
+
+      <div class="product-card">
+
+        <div class="product-img purple-bg">
+          <img src="assets/v30-pro.jpeg" class="phone-image">
+        </div>
+
+        <div class="product-body">
+
+          <h3>vivo V30 Pro</h3>
+
+          <p>50MP Aura Portrait</p>
+
+          <div class="product-price">
+            ₹42,999
+          </div>
+
+          <a href="product.html?phone=v30" class="btn-card">
+            Buy Now
+          </a>
+        </div>
+
+      </div>
+
+      <!-- CARD 6 -->
+
+      <div class="product-card">
+
+        <div class="product-img green-bg">
+          <img src="assets/y200.webp" class="phone-image">
+        </div>
+
+        <div class="product-body">
+
+          <h3>vivo Y200 5G</h3>
+
+          <p>Smart Performance Edition</p>
+
+          <div class="product-price">
+            ₹24,999
+          </div>
+          <a href="product.html?phone=y200" class="btn-card">
+            Buy Now
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CAMERA -->
+
+  <section class="camera-section" id="camera">
+
+    <div class="section-heading">
+
+      <h2>
+        Camera Beyond Limits
+      </h2>
+
+      <p>
+        Co-engineered with Zeiss for cinematic photography.
+      </p>
+
+    </div>
+
+    <div class="camera-features">
+
+      <div class="cam-feature">
+        <img src="assets/90W FlashCharge.webp" class="phone-image">
+        <h3>90W FlashCharge</h3>
+        <p>Charge from 0 to 50% in just 15 minutes.</p>
+      </div>
+
+      <div class="cam-feature">
+        <img src="assets/AI Processor.jpg" class="phone-image">
+        <h3>AI Processor</h3>
+        <p>Advanced Snapdragon chipset with AI optimization.</p>
+      </div>
+
+      <div class="cam-feature">
+        <img src="assets/5G Connectivity.jpeg" class="phone-image">
+        <h3>5G Connectivity</h3>
+        <p>Ultra-fast download and streaming experience.</p>
+      </div>
+
+      <div class="cam-feature">
+        <img src="assets/200mp.png" class="phone-image">
+
+        <h3>200MP Ultra Sensor</h3>
+        <p>Capture stunning ultra-high resolution details.</p>
+      </div>
+
+      <div class="cam-feature">
+        <img src="assets/True Color Engine.jpeg" class="phone-image">
+        <h3>True Color Engine</h3>
+        <p>Natural colors powered by vivo imaging AI.</p>
+      </div>
+
+      <div class="cam-feature">
+        <img src="assets/Periscope Zoom.avif" class="phone-image">
+
+        <h3>Periscope Zoom</h3>
+        <p>Zoom distant objects with crystal clear quality.</p>
+      </div>
+
+      <div class="cam-feature">
+        <img src="assets/Cinematic Video.jpeg" class="phone-image">
+        <h3>Cinematic Video</h3>
+        <p>Professional movie-style recording experience.</p>
+      </div>
+
+      <div class="cam-feature">
+        <img src="assets/Night Vision.jpeg" class="phone-image">
+
+        <h3>Night Vision</h3>
+        <p>Crystal clear low-light photography experience.</p>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- TECHNOLOGY SECTION -->
+
+  <section class="technology-section" id="technology">
+
+    <div class="section-heading">
+
+      <h2>
+        Advanced Technology
+      </h2>
+
+      <p>
+        Powerful performance engineered for the future.
+      </p>
+
+    </div>
+
+    <div class="technology-grid">
+
+      <div class="tech-card">
+        <div class="tech-icon">⚡</div>
+        <h3>90W FlashCharge</h3>
+        <p>Charge from 0 to 50% in just 15 minutes.</p>
+      </div>
+
+      <div class="tech-card">
+        <div class="tech-icon">🧠</div>
+        <h3>AI Processor</h3>
+        <p>Advanced Snapdragon chipset with AI optimization.</p>
+      </div>
+
+      <div class="tech-card">
+        <div class="tech-icon">📡</div>
+        <h3>5G Connectivity</h3>
+        <p>Ultra-fast download and streaming experience.</p>
+      </div>
+
+      <div class="tech-card">
+        <div class="tech-icon">🔋</div>
+        <h3>6000mAh Battery</h3>
+        <p>Long-lasting battery with smart power efficiency.</p>
+      </div>
+
+      <div class="tech-card">
+        <div class="tech-icon">🛡️</div>
+        <h3>IP68 Protection</h3>
+        <p>Dust and water resistance for extreme durability.</p>
+      </div>
+
+      <div class="tech-card">
+        <div class="tech-icon">🎮</div>
+        <h3>Gaming Mode</h3>
+        <p>Ultra-smooth gaming experience with AI optimization.</p>
+      </div>
+
+      <div class="tech-card">
+        <div class="tech-icon">☁️</div>
+        <h3>Cloud Sync</h3>
+        <p>Seamless backup and device synchronization.</p>
+      </div>
+
+      <div class="tech-card">
+        <div class="tech-icon">📶</div>
+        <h3>WiFi 7</h3>
+        <p>Next generation wireless speed and stability.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ACCESSORIES SECTION -->
+
+  <section class="accessories-section" id="accessories">
+
+    <div class="section-heading">
+
+      <h2>
+        vivo Accessories
+      </h2>
+
+      <p>
+        Complete your premium ecosystem.
+      </p>
+
+    </div>
+
+    <div class="accessories-grid">
+
+      <div class="acc-card">
+        <img src="assets/TWS Earbuds.webp" class="phone-image">
+        <h3>TWS Earbuds</h3>
+        <p>₹3,999</p>
+      </div>
+
+      <div class="acc-card">
+        <img src="assets/vivo Watch.webp" class="phone-image">
+        <h3>vivo Watch</h3>
+        <p>₹12,999</p>
+      </div>
+
+      <div class="acc-card">
+        <img src="assets/powerbank.jpg" class="phone-image">
+        <h3>Power Bank</h3>
+        <p>₹2,499</p>
+      </div>
+
+      <div class="acc-card">
+        <img src="assets/vivo pad air.jpg" class="phone-image">
+        <h3>vivo Pad Air</h3>
+        <p>₹39,999</p>
+      </div>
+
+      <div class="acc-card">
+        <img src="assets/protective case.jpg" class="phone-image">
+
+        <h3>Protective Case</h3>
+        <p>₹999</p>
+      </div>
+
+      <div class="acc-card">
+        <img src="assets/charger.jpeg" class="phone-image">
+
+        <h3>120W Charger</h3>
+        <p>₹2,999</p>
+      </div>
+
+      <div class="acc-card">
+        <img src="assets/gaming kit.webp" class="phone-image">
+        <h3>Gaming Trigger Kit</h3>
+        <p>₹1,499</p>
+      </div>
+
+      <div class="acc-card">
+        <img src="assets/backpack.jpg" class="phone-image">
+        <h3>Premium Backpack</h3>
+        <p>₹4,999</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- NEWSLETTER -->
+
+  <section class="newsletter-section">
+
+    <div class="newsletter-content">
+
+      <span class="newsletter-label">
+        STAY CONNECTED
+      </span>
+
+      <h2>
+        Be First to Know
+      </h2>
+
+      <p>
+        Subscribe to get exclusive launch offers,
+        camera tips and latest vivo news.
+      </p>
+
+      <div class="newsletter-form">
+
+        <input type="email" id="emailInput" placeholder="Enter your email address">
+
+        <button type="button" onclick="subscribeUser()">
+          Subscribe
+        </button>
+
+      </div>
+
+      <!-- POPUP -->
+
+      <div class="popup" id="popup">
+
+        <div class="popup-content">
+
+          <div class="popup-icon">
+            ✓
+          </div>
+
+          <h2>
+            Thank You!
+          </h2>
+
+          <p>
+            You have successfully subscribed.
+          </p>
+
+          <button onclick="closePopup()">
+            Close
+          </button>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+      <div class="footer-grid">
+
+        <!-- BRAND -->
+
+        <div class="footer-brand">
+
+          <h2>vivo</h2>
+
+          <p>
+            Extraordinary Camera. Extraordinary Phone.
+            vivo is committed to building premium
+            smartphones that integrate technology
+            with artistry.
+          </p>
+
+          <div class="social-icons">
+
+  <a href="https://www.facebook.com/vivoIndia" target="_blank">f</a>
+
+  <a href="https://x.com/Vivo_India" target="_blank">𝕏</a>
+
+  <a href="https://www.linkedin.com/company/vivo-india/" target="_blank">in</a>
+
+  <a href="https://www.youtube.com/@VivoIndiaOfficial" target="_blank">▶</a>
+
+  <a href="https://www.vivo.com/in" target="_blank">📸</a>
+
+</div>
+
+        </div>
+
+        <!-- PRODUCTS -->
+
+        <div class="footer-column">
+
+          <h3>PRODUCTS</h3>
+
+          <a href="#">X Series</a>
+          <a href="#">V Series</a>
+          <a href="#">Y Series</a>
+          <a href="#">iQOO</a>
+          <a href="#">Accessories</a>
+          <a href="#">Tablets</a>
+
+        </div>
+
+        <!-- SUPPORT -->
+
+        <div class="footer-column">
+
+          <h3>SUPPORT</h3>
+
+          <a href="#">Service Centre</a>
+          <a href="#">Warranty</a>
+          <a href="#">Software Update</a>
+          <a href="#">User Manual</a>
+          <a href="#">FAQ</a>
+          <a href="#">Track Repair</a>
+          <a href="#">Live Chat</a>
+
+        </div>
+
+        <!-- COMPANY -->
+
+        <div class="footer-column">
+
+          <h3>COMPANY</h3>
+
+          <a href="#">About vivo</a>
+          <a href="#">Zeiss Partnership</a>
+          <a href="#">Careers</a>
+          <a href="#">Press</a>
+          <a href="#">Sustainability</a>
+          <a href="#">Contact Us</a>
+
+        </div>
+
+      </div>
+
+      <!-- FOOTER BOTTOM -->
+
+      <div class="footer-bottom">
+
+        <p>
+          © 2025 vivo Mobile India Pvt. Ltd.
+          All Rights Reserved.
+        </p>
+
+        <div class="footer-bottom-links">
+
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Cookie Settings</a>
+
+        </div>
+
+      </div>
+
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
