@@ -143,6 +143,14 @@ Made with  by Kandula Gowtham Koushik
 | Department    | CSE                   |
 | Designation   | Assistant Professor   |
 | Subject       | User Interface Design |
+|Submitted by   |  Details              |
+| Name          |  Kandula Gowtham koushik   |
+| Roll No       | AV.SC.U4CSE25119      |
+| Year/Sem/Section| 1st YEAR/SEM-2/CSE  |
+
+
+
+
 
 ---
 
