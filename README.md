@@ -45,8 +45,8 @@ Vivo-Website/
 ├── index.html          # Main landing page
 ├── style.css           # Website styling
 ├── script.js           # JavaScript functions
-├── product.html        
-├── product.js          
+├── product.html        # Dynamic product details page
+├── product.js          # Product data and dynamic rendering
 ├── Assets/             # Website image
 └── README.md           # Project documentation
 ```
